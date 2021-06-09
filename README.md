@@ -1,6 +1,11 @@
-# Project_Name
+# recrutation_silencions
 
 > Template based on https://github.com/piotlinski/python-project-template
+
+## Important Note
+
+All neccesery code is in src folder. I used my template (based on this above) to quickly
+establish some tools for quicker development.
 
 ## Development
 
