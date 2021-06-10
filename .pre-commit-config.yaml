@@ -72,7 +72,7 @@ repos:
         args: [--nbqa-mutate]
 
       - id: nbqa-mypy
-        args: [--nbqa-mutate]
+        args: [--nbqa-mutate, "--ignore-missing-imports"]
 
   - repo: local
     hooks:
