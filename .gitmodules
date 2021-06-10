@@ -1,0 +1,3 @@
+[submodule "model"]
+	path = face-parsing.PyTorch
+	url = https://github.com/damianbrzoza/face-parsing.PyTorch

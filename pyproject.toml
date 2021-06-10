@@ -7,6 +7,9 @@ authors = ["Damian Brzoza"]
 [tool.poetry.dependencies]
 python = "^3.8"
 ipykernel = "^5.5.5"
+matplotlib = "^3.4.2"
+torch = "^1.8.1"
+torchvision = "^0.9.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0"
