@@ -12,6 +12,7 @@ torch = "^1.8.1"
 torchvision = "^0.9.1"
 requests = "^2.25.1"
 sklearn = "^0.0"
+types-requests = "^0.1.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.0"
@@ -29,7 +30,8 @@ doctests = true
 
 [tool.nbqa.addopts]
 flake8 = [
-    "--extend-ignore=[E203, E231, D100, D401]"
+    "--extend-ignore=[E203, E231, D100, D401]",
+    "--max-line-length=88"
 ]
 
 [tool.pytest.ini_options]
